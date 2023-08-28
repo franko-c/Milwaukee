@@ -58,15 +58,15 @@ body {
 }
 
 /* Navbar Styling */
-nav {
+header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 10px 0 10px;
+  padding: 0 20px 0 20px;
 }
 nav ul {
   display: flex;
-  gap: 10px;
+  gap: 30px;
   list-style-type: none;
 }
 nav ul li a {
