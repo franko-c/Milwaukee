@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Rubik&family=Bad+Script:wght@100;200;300;400;500&display=swap");
+
+/* Fonts */
+.bold {
+  font-family: "Bungee Shade";
+  font-size: 2.6rem;
+}
+.fran {
+  font-family: "Bungee Shade";
+  font-size: 2rem;
+}
+.title {
+  font-family: Rubik;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 22px;
+  padding: 10px;
+  margin: 0;
+}
+.block {
+  font-size: 1.04rem;
+  line-height: 26px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 80vw;
+}
+.emoji {
+  font-size: 4em;
+  text-align: center;
+}
+.facts-text {
+  color: #46b5e2;
+  font-family: Rubik;
+  font-weight: 100;
+  font-size: 1.4em;
+  text-align: center;
+  line-height: 28px;
+  width: 80vw;
+}
+.cool {
+  color: lightcyan;
+  text-shadow: 2px 2px deepskyblue;
+}
+.highlight {
+  color: blueviolet;
+}
+
+/* Body/Global */
+body {
+  font-family: Rubik, sans-serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 976px;
+}
+
+/* Navbar Styling */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px 0 10px;
+}
+nav ul {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+nav ul li a:active {
+  color: lightskyblue;
+  text-decoration: none;
+}
+
+/* Hero Styling */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #c9f0fd;
+  height: 100%;
+  width: 100%;
+  line-height: 6px;
+}
+.hero,
+h1 {
+  padding: 10px 0 0 0;
+  line-height: 6px;
+}
+
+/* Highlights Section */
+.highlights {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 20px 0 0 0;
+  margin: 0;
+}
+.info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 0 10px 0;
+}
+.info-box,
+h1 p {
+  font-size: 1rem;
+  padding: 0;
+  width: 80vw;
+  margin: 0;
+}
+.info-box p {
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+
+.highlights img {
+  width: 8rem;
+}
+
+/* Facts Carousel Styling */
+.facts {
+  background-color: #cbffda;
+}
+.facts-window {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 20px 0;
+  height: 360px;
+}
+.facts-text {
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+button {
+  font-family: Rubik;
+  font-size: 1.6em;
+  height: 80px;
+  width: 160px;
+  border-radius: 20px;
+  border: 2px solid blueviolet;
+  box-shadow: 3px 3px lightskyblue;
+  background: none;
+}
+.pressable:active {
+  transform: scale(0.9);
+}
+
+/* Footer Styling */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  height: 250px;
+  background: #ffcfde;
+}
+footer > * {
+  padding: 2px;
+  margin: 0;
+}
